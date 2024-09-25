@@ -22,8 +22,8 @@ class opscrape {
     @Throws(IOException::class)
     fun init() {
         //Todo: Setup Jsoup for op.gg
-        logger.info("Size: "+agents.size)
-        grabTier()
+        logger.info("Initializing OP.GG Data")
+        //grabTier()
     }
 
     fun grabTier(){
